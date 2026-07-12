@@ -4,7 +4,7 @@ import path from 'path';
 import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
-  return {
+  return {base:'/nexora.1.0/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
